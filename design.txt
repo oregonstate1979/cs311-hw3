@@ -3,3 +3,5 @@ assignment I can write, write them in their own file, and then eventaully combin
 assignment.
 
 First, I see the parser is to convert all alphabetical characters to lower case. Therefore, I will start here.
+
+Second, I'll write the code that searches for a given term in a corpus of files.
