@@ -1,0 +1,5 @@
+To design this project, I plan on looking through the assignment instructions to see if there are seperate functions of the
+assignment I can write, write them in their own file, and then eventaully combine them to form the final solution for the
+assignment.
+
+First, I see the parser is to convert all alphabetical characters to lower case. Therefore, I will start here.
