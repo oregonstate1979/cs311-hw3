@@ -5,3 +5,16 @@ assignment.
 First, I see the parser is to convert all alphabetical characters to lower case. Therefore, I will start here.
 
 Second, I'll write the code that searches for a given term in a corpus of files.
+
+I believe I have a little bit more understanding of the assignment after reading it over again and speakin with Kevin:
+
+We score the words in the first part of the program (# of times word is found). "Finally, you will write a program that 
+searches for a given term in a corpus of files." Isn't that redundant since the first paragraph states that's how scoring 
+is? So you just combine the first paragraph, with dividing document count by document count of where the word was, then 
+take the log of that answer and that's it for that part (no output). Then the last part is just outputting the files where 
+the term is found. What happens with the term frequency? So:
+Process a - read in files and parse words
+Process b - calculate how many times the word is found, outputting all words with a total count from each document.
+Process c - Use process b's output to calculate term freq. Then end with just outputting the files who contain the term 
+searched for.  (What about the term frequency? We do the term frequency but where do we show the total? It doesn't state 
+to output that value? What's the point of term freq when we don't even use it as output?)
